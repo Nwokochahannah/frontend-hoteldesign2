@@ -1,0 +1,141 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.intro{
+    display: flex;
+    align-items: center;
+}
+
+.section-intro-container{
+    background-color: #ffffff;
+    margin: 0 auto 2rem;
+    max-width: 20rem;
+    box-shadow:0px 3px 15px rgba(0, 0, 0, 0.25);
+    padding: 3rem 1.5rem;
+}
+
+.section-intro-subtitle{
+    font-size: 1rem;
+    color:  #B18B11;
+}
+
+.section-intro-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.section-intro-paragraph{
+    font-size: .8rem;
+    line-height: 1;
+}
+
+.learn{
+    margin: 3.5rem auto 1rem;
+}
+
+.learn-more{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1rem;
+    background-color: #B18B11;
+}
+
+.rooms-suite{
+    background-color:  #1C323A;
+    padding: 3rem;
+    text-align: center;
+}
+
+.section-rooms-writeup{
+    margin: 0 auto;
+    max-width: 20rem;
+}
+
+.section-rooms-title{
+    color: #B18B11;
+    font-weight: 600;
+}
+
+.section-rooms-title::after{
+    content: '';
+    display: block;
+    width: 4em;
+    height: 1px;
+    margin: 0.5em auto 1em;
+    background: #B18B11;
+}
+
+.section-rooms-paragraph{
+    color: #ffffff;
+    font-size: .8rem;
+}
+
+.section-images-container{
+    display: flex;
+}
+
+.suite{
+    width: 20rem;
+    height: 30rem;
+    padding: 0;
+    margin: 0;
+}
+
+.faclities{
+    width: 100%;
+    padding: 2.5% 5%;
+}
+
+.section-facilities {
+    /* position: relative; */
+    width: 100%;
+    height: auto;
+    background: url('images/fac-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+
+}
+
+.facs {
+    height: auto;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#first-facs {
+    background: rgba(177, 139, 17, 0.29);
+}
+
+#second-facs {
+    background: rgba(28, 50, 58, 0.53);
+}
+
+#third-facs {
+    background: rgba(56, 2, 14, 0.66);
+}
+
+.fac {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: center;
+}
